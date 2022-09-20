@@ -113,4 +113,21 @@ span {
   color:rgb(61, 102, 238);
 }
 
+@media(max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .form-header p {
+    text-align: center;
+  }
+
+  .form-header,
+  .form-main,
+  .form-footer,
+  .call-to-action {
+    display:block;
+  }
+}
+
 
